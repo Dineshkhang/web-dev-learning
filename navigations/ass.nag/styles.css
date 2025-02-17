@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    background-color: bisque;
+padding: 1rem;
+gap: 0.5rem;
+display: inline-block;
+
+}
+ul{
+    display: inline-block;
+    display: flex;
+    cursor: pointer;
+
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+ul,li,.nav{padding-right: 10px;
+    justify-content: center; 
+}
+ul>li{
+    padding-left: 12rem;
+}
+input{
+    background-color:seashell;
+    width: 15rem;
+    border: 1px none;
+    border-radius: 0.2rem;
+}
+
+.main{
+    display: flex;
+    background-color: blanchedalmond;
+    border: 0.15rem solid burlywood;
+    padding: 1rem;
+    margin-top: 0.25rem;
+    font-style: oblique;
+    font-size: large;
+}
+.acc{
+    text-align: center;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-top: 10rem;
+    justify-items: auto;
+
+}
+.im{
+    background-color: rgb(141, 197, 178);
+    width: 45rem;
+
+}
+li:hover{
+    color: blue;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.cr{
+    background-color: red;
+    padding: auto;
+    margin: 0.5rem;
+    max: width 2rem;
+
+}
+.sign{
+    margin: 0.2rem;
+    padding: auto;
+}
+.but:hover{
+    color:green;
+    font-weight: bold;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+/* .na>li{
+    text-align: right;
+    justify-content: end;
+    justify-items: end;
+} */
+footer{
+    background-color: rgba(50, 49, 49, 0.308);
+    padding: auto;
+    
+}

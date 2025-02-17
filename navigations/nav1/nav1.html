@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        background-color: rgb(65, 61, 61);
+        color: rgb(211, 34, 34);
+      }
+
+      nav,
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      nav,
+      ul,
+      li {
+        display: inline;
+        margin-right: 20px;
+        padding: 0.5rem;
+      }
+
+      nav,
+      ul,
+      li,
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav,ul,li,a:hover {
+        color: burlywood;
+      }
+      #hero {
+        background-image: url("./img/bgimg.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        color:aquamarine;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero-content {
+        max-width: 600px;
+      }
+
+      .hero-content h1 {
+        font-size: 3em;
+        margin-bottom: 0.5em;
+      }
+
+      .hero-content p {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+      }
+
+      .hero-content .btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .hero-content .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Welcome to Our Website</h1>
+        <p>Your journey to excellence starts here.</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+  </body>
+</html>

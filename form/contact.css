@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cform{
+    border: 2px solid snow;
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    margin-top:rem;
+}
