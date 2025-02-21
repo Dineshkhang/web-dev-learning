@@ -1,0 +1,37 @@
+
+    .main-box {
+      display: flex;
+      gap: 6rem;
+      padding: 2rem;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      background-color: yellow;
+      transition: background-color 1s ease-in-out;
+    }
+    .box:hover {
+      background-color: pink;
+    }
+    .another-box {
+      display: flex;
+      justify-content: space-around;
+    }
+    .a-box {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: yellow;
+      position: relative;
+      animation: bounce 2s ease-in-out infinite;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        top: 10px;
+      }
+      50% {
+        top: 8rem;
+      }
+    }
+  
