@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+/* variable delecration */
+:root{
+    --primary-color : #46d9e6d7;
+}
+
+
+
+/* universal sectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--primary-color);
+    padding:10px 0px ;
+}
+header marquee{
+color: white;
+font-size: larger;
+font-family: "Moon Dance", serif;
+}
