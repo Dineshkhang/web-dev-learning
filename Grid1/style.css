@@ -20,6 +20,26 @@
 .child img{
     height: 200px;
 }
+
+/* css for babber html */
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    display: grid;
+    padding: 4rem;
+    gap: 1rem;
+    /* grid-template-rows:1fr 1fr; */
+    grid-template-rows: repeat(2,1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.item{
+    background-color: rgb(177, 117, 233);
+    border: 5px solid black;
+}
+
 @media screen and (min-width:576px){
      .main{
         grid-template-columns: auto auto;

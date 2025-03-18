@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto 400px;
+    grid-template-rows: 100px 500px 400px 200px;
+    gap: 0.8rem;
+}
+.child{
+    background: red;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.nav{
+background-color: green;
+grid-column: 1/3;
+}
+.article{
+    background-color: black;
+}
+.sidebar{
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.content{
+    background-color: red;
+}
+.footer{
+    background-color: blue;
+    grid-column: 1/3;
+}
