@@ -3,22 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading{
+    text-align: center;
+    background-color: #329BD5;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    font-size: larger;
+}
+
 nav{
     height: 6rem;
-    background: red;
-    color: white;
-    font-size: 2rem;
+    background: rgb(249, 247, 247);
+    /* color: white; */
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 30px;
+}
+.main-logo img{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    /* width: 3rem; */
+}
+.main-logo img:hover{
+    height:5.5rem;
 }
 ul{
     display: flex;
- gap: 20px;   
+ gap: 7rem;   
+
 }
 li{
     list-style-type: none;
+
+}
+nav ul:hover{
+text-decoration: underline;
+/* color: blue; */
+text-decoration-color: rgb(50, 169, 220);
+
 }
 .open{
     display: none;
