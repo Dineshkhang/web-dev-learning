@@ -46,6 +46,35 @@ text-decoration: underline;
 text-decoration-color: rgb(50, 169, 220);
 
 }
+.main img{ 
+width: 100%;   
+border-top:5px solid #329BD5;
+display: flex;
+justify-content: center;
+}
+.article-heading{
+    text-align: center;
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #329BD5;
+}
+.about{
+    margin-top: 1rem;
+    padding: 1.7rem;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap: 2rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #329BD5;
+
+}
+.about-img img{
+    height: 350px;
+    /* width: 25%; */
+}
 .open{
     display: none;
 }
