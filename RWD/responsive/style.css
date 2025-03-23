@@ -1,148 +1,216 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.heading{
-    text-align: center;
-    background-color: #329BD5;
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1rem;
-    font-size: larger;
+.heading {
+  text-align: center;
+  background-color: #329bd5;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  font-size: larger;
 }
 
-nav{
-    height: 6rem;
-    background: rgb(249, 247, 247);
-    /* color: white; */
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
+nav {
+  height: 6rem;
+  background: rgb(249, 247, 247);
+  /* color: white; */
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
 }
-.main-logo img{
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    /* width: 3rem; */
+.main-logo img {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  /* width: 3rem; */
 }
-.main-logo img:hover{
-    height:5.5rem;
+.main-logo img:hover {
+  height: 5.5rem;
 }
-ul{
-    display: flex;
- gap: 7rem;   
-
+ul {
+  display: flex;
+  gap: 7rem;
 }
-li{
-    list-style-type: none;
-    cursor: pointer; 
-
+li {
+  list-style-type: none;
+  cursor: pointer;
 }
-nav ul:hover{
-/* text-decoration: underline; */
-text-decoration: wavy;
-/* color: blue; */
-text-decoration-color: rgb(50, 169, 220);
-
+nav ul:hover {
+  /* text-decoration: underline; */
+  text-decoration: wavy;
+  /* color: blue; */
+  text-decoration-color: rgb(50, 169, 220);
 }
-.main img{ 
-width: 100%;   
-border-top:5px solid #329BD5;
-display: flex;
-justify-content: center;
+.main img {
+  width: 100%;
+  border-top: 5px solid #329bd5;
+  display: flex;
+  justify-content: center;
 }
-.article-heading{
-    text-align: center;
-    margin: 1rem;
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #329BD5;
+.article-heading {
+  text-align: center;
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #329bd5;
 }
-.about{
-    margin-top: 1rem;
-    padding: 1.7rem;
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    gap: 2rem;
-    font-size: 1.7rem;
-    font-weight: bolder;
-    color: #329BD5;
-
+.about {
+  margin-top: 1rem;
+  padding: 1.7rem;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  gap: 2rem;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  color: #329bd5;
 }
-.about-img img{
-    height: 350px;
-    /* width: 25%; */
+.about-img img {
+  height: 350px;
+  /* width: 25%; */
 }
-.goals{
-    display: flex;
-    background-color: #329BD5;
-    padding: 3rem;
-    max-height: 100vh;
+.goals {
+  display: flex;
+  background-color: #329bd5;
+  padding: 3rem;
+  max-height: 100vh;
 }
-.goal1 img{
-    width: 100%;
-    /* height: 90%; */
+.goal1 img {
+  width: 100%;
+  /* height: 90%; */
 }
-.goal-rotation{
-    width: 100%;
+.goal-rotation {
+  width: 100%;
 }
-.blogs{
-    display: flex;
-    /* width: 100%; */
-    margin-top: 2rem;
-    justify-content: space-evenly;
-    justify-content: center;
-    text-align: justify;
-    gap: 3.5rem;
-    padding: 1rem;
-    margin: 0 4rem;
+.blogs {
+  display: flex;
+  /* width: 100%; */
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  justify-content: center;
+  text-align: justify;
+  gap: 3.5rem;
+  padding: 1rem;
+  margin: 0 4rem;
 }
-.blog-heading{
-    padding-top: 1rem;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #329BD5;
-    /* border:2px solid #329BD5; */
+.blog-heading {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #329bd5;
+  /* border:2px solid #329BD5; */
 }
-.item{
-    /* height: 600px;
+.item {
+  /* height: 600px;
     width: 600px; */
-    border:2px solid #329BD5;
-/* padding:0 1rem; */
-border-radius: 10px;
-background-color: #329BD5;
+  border: 2px solid #329bd5;
+  /* padding:0 1rem; */
+  border-radius: 10px;
+  background-color: #329bd5;
 }
-.item img{
-    height: 300px;
-    width: 418px;  
+.item img {
+  height: 300px;
+  width: 418px;
 }
-.blog-btn{
+.blog-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #329bd5;
+  background-color: white;
+  width: 90%;
+  font-size: 1.5rem;
+  padding: 2px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.bolg-dbtn {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #329bd5;
+}
+/* explore section css */
+.explore {
+  display: flex;
+  margin: 2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: bisque;
+}
+.explore button {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  background-color: #329bd5;
+  border-radius: 8px;
+}
+.explore input {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.exp-img img {
+  width: 500px;
+  padding: 1rem;
+  background-color: #329bd5;
+}
+.explore2 {
+  display: flex;
+  padding:0 6rem;
+  align-items: center;
+  gap: 13rem;
+}
+.faqs{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #329BD5;
-    background-color: white;
-    width: 90%;
-    font-size: 1.5rem;
-    padding: 2px;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #329bd5;
+    padding: 1rem;
+
+}
+.faqs article{
+    width: 50%;
+}
+.questions div{
+    display: block;
+    border: 2px solid blanchedalmond;
+    background-color: #475569;
+    padding: 5px;
     margin: 1rem;
-    border-radius: 10px;
 }
-.open{
+.footer-info{
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    background-color: #329bd5;
+    font-size: 1.4rem;
+}
+
+
+.open {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  ul {
     display: none;
+  }
+  .open {
+    display: flex;
+  }
 }
-@media screen and (max-width: 800px ){
-    ul{
-        display: none;
-      
-    }  .open{
-            display: flex;
-        }
-}
-    
