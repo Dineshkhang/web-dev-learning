@@ -34,9 +34,10 @@
 
 
 // new function
-// const sum=( g,h) => g+h;{
-//   return sum
-// }
+const sum=(g,h) =>{
+    sum = g+h;
+  return sum
+}
 // console.log(sum(6,8));
 // add 
 const add = (a, b) => a + b;

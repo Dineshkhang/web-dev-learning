@@ -148,7 +148,7 @@ nav ul:hover {
 }
 /* explore section css */
 .explore {
-  display: flex;
+  /* display: flex; */
   margin: 2rem;
   font-size: 2rem;
   color: white;
@@ -163,7 +163,7 @@ nav ul:hover {
   border-radius: 8px;
 }
 .explore input {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 5px;
   margin: 10px;
@@ -175,22 +175,19 @@ nav ul:hover {
   background-color: #329bd5;
 }
 .explore2 {
-  display: flex;
+  /* display: flex; */
   padding: 0 6rem;
-  align-items: center;
-  gap: 13rem;
+  
 }
 .faqs {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
   font-size: 1.4rem;
   color: white;
   background-color: #329bd5;
   padding: 1rem;
 }
-.faqs article {
-  width: 50%;
-}
+
 .questions div {
   display: block;
   border: 2px solid blanchedalmond;
@@ -216,6 +213,17 @@ nav ul:hover {
   display: flex;
 }
  /* resposibe code */
+ @media screen and (min-width: 425px) {
+  .footer-info img{
+  width: 20rem;
+  }
+  .about-img img{
+    width: 100%;
+  }
+  .exp-img img{
+    width: 100%;
+  }
+ }
 @media screen and (min-width: 800px) {
   ul {
     display: flex;
@@ -250,9 +258,24 @@ nav ul:hover {
     gap: 3.5rem;
     padding: 1rem;
     margin: 0 4rem;}
+    .faqs {
+      display: flex;
+     justify-content: space-around; }
+     .faqs article {
+      width: 50%;
+    }
+    .explore {
+      display: flex;
+      margin: 2rem;}
+
+    .explore2 {
+      display: flex;
+      align-items: center;
+      gap: 13rem;
+}
 }
 
-@media screen and (min-width: 1000px) {
+ @media screen and (min-width: 1000px) {
   .footer-info {
     display: flex;
   }
@@ -260,6 +283,7 @@ nav ul:hover {
     width: 100%;
   }
 }
+ 
 @media screen and (min-width: 1200px) {
   
   .footer-info {
@@ -268,4 +292,4 @@ nav ul:hover {
   .footer-info img {
     width: 100%;
   }
-}
+} */
