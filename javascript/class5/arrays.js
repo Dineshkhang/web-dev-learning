@@ -21,3 +21,8 @@ const firstelement = array1.shift();
 console.log(array1);
 console.log(firstelement);
 
+// unshift
+const arr= [1, 2, 3];
+console.log(arr.unshift(4, 5));
+console.log(array1);
+
