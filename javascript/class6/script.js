@@ -16,11 +16,15 @@
 // console.log(f);
 
 
-// // sort 
+// sort 
+let a = ['apple','orange','pear','jackfruit']
+a.sort();
+console.log(a);
 
-// let i =[5,6,2,29,8]
-// i.sort();
-// console.log(i);
+let i =[5,6,2,29,8]
+i.sort((a,b)=>b-a); //desending
+// i.sort((a,b)=>a-b); //ascending
+console.log(i);
 
 
 // slice 
@@ -36,15 +40,15 @@
 // let n = m.find((a) => a>4);
 // console.log(n);
 
-// splice syntax ( itemIndex,delete.cout,value)
-let o =["apple","banana",'mango','pear']
-o.splice(1,0,'jackfruit')
-console.log(o);
+// // splice syntax ( itemIndex,delete.cout,value)
+// let o =["apple","banana",'mango','pear']
+// o.splice(1,0,'jackfruit')
+// console.log(o);
 
-// reduce 
-let p =[1,3,5,7,3,8,0]
-let q =p.reduce(( accumulator,item) => {
-return accumulator + item;
-},0);
-console.log(q);
+// // reduce 
+// let p =[1,3,5,7,3,8,0]
+// let q =p.reduce(( accumulator,item) => {
+// return accumulator + item;
+// },0);
+// console.log(q);
 
