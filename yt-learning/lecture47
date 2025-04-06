@@ -1,0 +1,22 @@
+class Human{
+    age = 21; //public can use in the class or out of the class also  
+    #wt = 60; //private  can be use in the class
+    ht = 180;
+
+    walking(){
+        console.log(" I am walking", this.#wt);
+    }
+    running(){
+        console.log(" I am running");
+    }
+
+// }
+//  get fetch (val){
+//      return this.#wt
+
+// }
+}
+let obj = new Human();
+console.log(obj.age);
+// console.log();
+
