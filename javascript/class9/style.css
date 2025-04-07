@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.store{
+    text-align: center;
+    font-size: xx-large;
+}
+.things{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem;
+}
+.saman{
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 2rem;
+}
+.saman img{
+    width: 300px;
+}
