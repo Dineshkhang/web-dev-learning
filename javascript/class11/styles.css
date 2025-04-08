@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    text-align: center;
+    font-size: 3rem;
+    font-family: monospace;
+    color: orange;
+}
+/* .structure{
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+.store{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    background: linear-gradient(to right, rgb(191, 155, 84), rgb(183, 183, 166));
+}
+.store img{
+    max-width:300px ;
+    height: 200px;
+    margin-top: 1rem;
+}
+.cards{
+     width: 25rem; 
+    border: 3px solid black;
+    border-radius: 9px;
+    margin: 10px;
+    padding: 1rem 0rem;
+}
+.cards h2,h5{
+    /* max-width: 230px; */
+    height: 3rem;
+    overflow: hidden;
+}
+.cards .cr{
+display: flex;
+text-align: center;
+gap: 3rem;
+padding-left: 4rem;
+}
+.cards button{
+    border-radius:5px;
+    background-color: rgba(130, 158, 49, 0.822);
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.cards button:hover{
+    background-color: green;
+}
