@@ -47,9 +47,15 @@ header{
     gap: 1rem;
 }
 .nav-bar{
-    display: flex;
+    display: none;
     font-size: 1.125rem;
     gap: 2rem;
+}
+@media screen and (min-width:768px){
+    .nav-bar{
+        display: flex;
+    }
+    
 }
 .nav-link{
 color: #718096;
@@ -61,6 +67,7 @@ transform: color 0.1s;
     color: red;
 }
 .contact-button{
+    display: none;
     border: none;
     border-radius: 0.375rem;
     background-color: var(---primary-color);
@@ -69,4 +76,29 @@ transform: color 0.1s;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     font-weight: 600;
+}
+@media screen and (min-width:768px){
+    .contact-button{
+        display: flex;
+    }
+}
+.menu-button{
+    display: flex;
+    border: none;
+    background-color: var(--background-color);
+    transform: all 0.1s;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.menu-button img{
+
+    width: 1.7rem;
+    height: 1.7rem;
+}
+@media screen and (min-width:768px){
+    .menu-button{
+        display: none;
+    }
 }
