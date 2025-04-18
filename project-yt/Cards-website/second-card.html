@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container2{
+  width: 100vw;
+  height: 100vh;
+  background-image: conic-gradient(from 90deg, rgb(173, 90, 90), rgb(156, 156, 58), rgb(73, 155, 73));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  /* padding: 20px; */
+}
+
+.cards2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 600px;
+  width: 400px;
+  background-color: aliceblue;
+  /* padding: 15px; */
+
+  
+
+}
+.ads{
+    display: flex;
+    background-color: aquamarine;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    width: 80%;
+    gap: 1rem;
+}
+
+.ads img{
+    /* height: 2rem; */
+    width: 3rem;
+}
+a{
+    text-decoration: none;
+}
+.pty-btn{
+    width: 80%;
+    /* height: 30px; */
+    border-radius: 10px;
+    background: rgba(54, 54, 202, 0.766);
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+span{
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="container2">
+        <div class="cards2">
+            <img src="./assets/books.jpg" alt="">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi praesentium repudiandae non illum inventore quod?</p>
+    
+            <div class="ads">
+                    <div class="img-box">
+              <img src="./assets/book-icon.png" alt="icon-img">
+            </div>
+            <div class="plan-box">
+              <h3>annual Plan $99/year</h3>
+            </div>
+        
+             <a href="#change">change</a>
+           </div>
+            <a href="#">
+            <button class="pty-btn"> Proceed to Payment </button>
+          </a>
+         <span>Cancel Order</span>
+    </div>
+ </div>
+    
+</body>
+</html>

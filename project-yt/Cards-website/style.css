@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: conic-gradient(from 90deg, rgb(173, 90, 90), rgb(156, 156, 58), rgb(73, 155, 73));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.cards{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 450px;
+  width: 400px;
+  background-color: aliceblue;
+  position: relative;
+  padding: 20px;
+
+}
+.cards img {
+  height: 57%;
+  border-radius: 10px;
+}
+.cards h2{
+font-size: 2rem;
+}
+.cards p{
+    font-size: 1.2rem;
+}
