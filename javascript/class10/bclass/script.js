@@ -12,7 +12,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   const data = await fn();
   console.log("data", data);
 });
-data.innerHTML``;
 //   a.innerHTML = `
 //   <div>
 //   <h1>${data.setup}</h1>
