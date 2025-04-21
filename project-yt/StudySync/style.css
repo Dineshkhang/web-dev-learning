@@ -266,3 +266,6 @@ height: 1.5rem;
         grid-template-columns: repeat(4,1fr);
     }
 }
+.feature-container{
+    background-color: var(--light-grayytr);
+}
